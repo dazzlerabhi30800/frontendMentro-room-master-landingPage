@@ -494,14 +494,14 @@ body {
     padding : 2rem 0rem;
     place-items : initial;
     place-content : initial;
-    background : rgb(230, 43, 43);
+    background : rgba(230, 43, 43, 0);
     padding-bottom : 0;
     height : 40vh;
     // position : relative;
 
     .top__img__wrapper {
         height : 40vh;
-        background : rgb(90, 26, 238);
+        background : rgba(90, 26, 238, 0);
         position : initial;
         display : flex;
         // top : 2.9rem;
@@ -548,7 +548,7 @@ body {
         width : 34vw;
         height : 40vh;
         // margin-top : 2rem;
-        background : rebeccapurple;
+        background : rgba(102, 51, 153, 0);
         margin-right : .3rem;
         display : flex;
         img {
