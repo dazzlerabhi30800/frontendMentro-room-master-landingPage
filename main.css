@@ -553,13 +553,13 @@ body {
     padding: 2rem 0rem;
     place-items: initial;
     place-content: initial;
-    background: #e62b2b;
+    background: rgba(230, 43, 43, 0);
     padding-bottom: 0;
     height: 40vh;
   }
   .second .top__img__wrapper {
     height: 40vh;
-    background: #5a1aee;
+    background: rgba(90, 26, 238, 0);
     position: initial;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -587,8 +587,8 @@ body {
         -ms-flex-align: center;
             align-items: center;
     background: #ebebec;
-    width: 33vw;
-    margin-left: -5px;
+    width: 36vw;
+    margin-left: -10px;
     height: 40vh;
   }
   .second .about__wrapper .title {
@@ -605,9 +605,9 @@ body {
   }
   .second .bottom__img__wrapper {
     position: initial;
-    width: 34vw;
+    width: 35vw;
     height: 40vh;
-    background: rebeccapurple;
+    background: rgba(102, 51, 153, 0);
     margin-right: .3rem;
     display: -webkit-box;
     display: -ms-flexbox;

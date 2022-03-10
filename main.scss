@@ -42,8 +42,7 @@ body {
         position : relative;
         width : 100vw;
         height : 500px;
-        // background : brown;
-        // background : rgba(0, 0, 255, 0.123);
+        
         transition : background .4s ease-in;
 
         .nav__wrapper {
@@ -220,7 +219,7 @@ body {
     .top__img__wrapper {
         width : fit-content;
         height : fit-content;
-        // background : red;
+        
         position : relative;
 
         img {
@@ -285,8 +284,7 @@ body {
             position : relative;
             width : 60vw;
             height : 70vh;
-            // background : brown;
-            // background : rgba(0, 0, 255, 0.123);
+            
             transition : background .4s ease-in;
     
             .nav__wrapper {
@@ -524,8 +522,8 @@ body {
         // margin-top : 2rem;
         align-items : center;
         background :rgb(235, 235, 236);
-        width : 33vw;
-        margin-left : -5px;
+        width : 36vw;
+        margin-left : -10px;
         height : 40vh;
 
         .title {
@@ -545,7 +543,7 @@ body {
 
     .bottom__img__wrapper {
         position :initial;
-        width : 34vw;
+        width : 35vw;
         height : 40vh;
         // margin-top : 2rem;
         background : rgba(102, 51, 153, 0);
