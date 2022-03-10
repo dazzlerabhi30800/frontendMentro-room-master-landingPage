@@ -325,7 +325,7 @@ body {
                     justify-content : initial;
                     align-items : initial;
                     position : absolute;
-                    left : 35%;
+                    left : 30%;
                     z-index : 20;
                     top : 0px;
                     transform : translateY(0px);
@@ -378,8 +378,8 @@ body {
                     font-weight : bolder;
                     z-index : 0;
                     position : relative;
-                    left : 20%;
-                    top : 10px;
+                    left : 5%;
+                    top : 15px;
                     cursor : pointer;
                     transition : all .4s linear;
 
@@ -396,20 +396,36 @@ body {
                 position : absolute;
                 bottom : 0;
                 right : 0;
-                background : black;
+                background : rgba(0, 0, 0, 0);
                 color : white;
-                padding : 1rem 3rem;
+                padding : 0rem 0rem;
                 border-radius : 2px;
     
                 .fa-chevron-left {
-                    margin-right : 2rem;
+                    // margin-right : 2rem;
                     font-size : 1.8rem;
                     cursor : pointer;
+                    background : black;
+                    padding : 1rem 1.5rem;
+                    position : relative;
+                    left : 20px;
+                    transition : all .2s ease-in;
+
+                    &:hover {
+                        background : rgb(90, 86, 86);
+                    }
                 }
                 .fa-chevron-right {
-                    margin-left : 2rem;
+                    // margin-left : 2rem;
                     font-size : 1.8rem;
                     cursor : pointer;
+                    background : black;
+                    padding : 1rem 1.5rem;
+                    transition : all .2s ease-in;
+
+                    &:hover {
+                        background : rgb(90, 86, 86);
+                    }
                 }
             }
         }
